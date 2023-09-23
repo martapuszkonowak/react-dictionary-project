@@ -5,10 +5,9 @@ import "./Dictionary.css";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState(null);
-  let [results, setResults] = useState({});
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data.meanings[0].definition);
     setResults(response.data);
   }
 

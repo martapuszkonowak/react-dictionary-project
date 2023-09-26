@@ -4,7 +4,7 @@
   margin-bottom: 20px;
 }
 .Dictionary section {
-  background-color: #f8f3ff;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 5px 5px rgb(0 0 0 /5%);
@@ -16,7 +16,8 @@
   padding: 8px 5px;
   color: #333;
   border-radius: 4px;
-  border-style: none;
+  border-style: solid;
+  border-color: #e7eaf6;
 }
 
 .Dictionary .hint {

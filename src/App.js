@@ -5,7 +5,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header">
+          <i class="fa-solid fa-book-open fa-2xl"></i> Dictionary
+        </header>
         <main>
           <Dictionary defaultKeyword="dictionary" />
         </main>

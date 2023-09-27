@@ -9,7 +9,21 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
-.App-footer {
+
+.App .App-header {
+  color: #fafbfd;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.App .App-footer {
   text-align: center;
   margin: 30px 0;
+  color: #fafbfd;
+}
+
+.App .App-footer a {
+  color: #fafbfd;
+  text-decoration: none;
+  font-weight: bold;
 }

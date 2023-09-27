@@ -9,7 +9,7 @@ export default function App() {
           <i class="fa-solid fa-book-open fa-2xl"></i> Dictionary
         </header>
         <main>
-          <Dictionary defaultKeyword="dictionary" />
+          <Dictionary defaultKeyword="technology" />
         </main>
         <footer className="App-footer">
           <small>
